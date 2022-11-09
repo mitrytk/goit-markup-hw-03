@@ -20,7 +20,10 @@ body {
 
     font-family: 'Roboto', sans-serif;
 }
-
+ul {
+    margin: 0;
+    padding: 0;
+}
 .list {
     list-style: none;
 }
@@ -56,10 +59,21 @@ body {
     font-style: normal;
     
 }
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 /* --Индивидуальные классы-- */
 
 /* -header- */
+.header-container {
+    display: flex;
+    align-items: center;
+}
 /* logo */
 .logo {
     color: #000000;
@@ -73,14 +87,27 @@ body {
     color: var(--brend-color);
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 /* Навигация сайта и контакты*/
 header {
     background-color: #FFFFFF;
+}
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+.nav-site {
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+}
+.nav-items > .link,
+.contacts-items > .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.nav-items + .nav-items{
+    margin-left: 50px;
 }
 .nav-site .link,
 .nav-contacts .link {
@@ -96,6 +123,14 @@ header {
 .nav-contacts .link:hover,
 .nav-contacts .link:focus  {
     color: var(--brend-color);
+}
+.nav-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.contacts-items + .contacts-items {
+    margin-left: 50px;
 }
 .nav-contacts .link {
     color: var(--text-main-color)
