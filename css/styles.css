@@ -89,6 +89,9 @@ p {
 /* --Индивидуальные классы-- */
 
 /* -header- */
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 .header-container {
     display: flex;
     align-items: center;
@@ -290,9 +293,25 @@ header {
 }
 
 /* -- Портфолио html -- */
-
+.portfolio-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* фильтр портфолио */
+.filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 .filter-button {
+    min-width: 73px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border: none;
+    border-radius: 4px;
+
     color: var(--text-title-color);
     background-color: var(--background-secondary-color);
 
@@ -303,12 +322,28 @@ header {
     text-align: center;
     letter-spacing: 0.03em;
 }
+.filter-items + .filter-items {
+    margin-left: 8px;
+}
 .filter-button:hover,
 .filter-button:focus {
     color: var(--white-color);
     background-color: var(--brend-color);
 }
 /* список примера работ */
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+.portfolio-items {
+    width: calc((1170px - (30px*2))/3);
+    margin: 15px;
+    border: 1px solid #EEEEEE;
+}
+.portfolio-about {
+    margin: 20px 24px;
+}
 .portfolio-titel {
     color: var(--text-title-color);
     font-weight: 700;
@@ -317,6 +352,8 @@ header {
     letter-spacing: 0.06em;
 }
 .portfolio-text {
+    margin-top: 4px;
+
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;

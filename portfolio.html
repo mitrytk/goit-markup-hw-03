@@ -14,7 +14,7 @@
     
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Навигация -->
       <div class="header-container container">
         <nav class="nav-header">
@@ -46,23 +46,19 @@
 
     <main>
       <!-- галерея портфолио -->
-      <section>
-        <h1>Портфоліо</h1>
+      <section class="portfolio-container container">
+        <h1 class="hide">Портфоліо</h1>
         <!-- фильтр портфолио -->
-        <ul class="filter list">
-          <li><button class="filter-button" type="button">Усі</button></li>
-          <li>
-            <button class="filter-button" type="button">Веб-сайти</button>
-          </li>
-          <li><button class="filter-button" type="button">Додатки</button></li>
-          <li><button class="filter-button" type="button">Дизайн</button></li>
-          <li>
-            <button class="filter-button" type="button">Маркетинг</button>
-          </li>
+        <ul class="filter-list list">
+          <li class="filter-items"><button class="filter-button" type="button">Усі</button></li>
+          <li class="filter-items"><button class="filter-button" type="button">Веб-сайти</button></li>
+          <li class="filter-items"><button class="filter-button" type="button">Додатки</button></li>
+          <li class="filter-items"><button class="filter-button" type="button">Дизайн</button></li>
+          <li class="filter-items"><button class="filter-button" type="button">Маркетинг</button></li>
         </ul>
         <!-- список примера работ -->
-        <ul class="list">
-          <li>
+        <ul class="portfolio-list list">
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/tehno.jpg"
@@ -70,12 +66,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel">Технокряк</h2>
-              <p class="portfolio-text">Веб-сайт</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel">Технокряк</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/new-orlean.jpg"
@@ -83,12 +82,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-text">Дизайн</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel">Постер New Orlean vs Golden Star</h2>
+                <p class="portfolio-text">Дизайн</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/see-food.jpg"
@@ -96,12 +98,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel">Ресторан Seafood</h2>
-              <p class="portfolio-text">Додаток</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel">Ресторан Seafood</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/prime.jpg"
@@ -109,12 +114,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel">Проєкт Prime</h2>
-              <p class="portfolio-text">Маркетинг</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel">Проєкт Prime</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/boxes.jpg"
@@ -122,12 +130,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel">Проєкт Boxes</h2>
-              <p class="portfolio-text">Додаток</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel">Проєкт Boxes</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/inspiration.jpg"
@@ -135,12 +146,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel" lang="en">Inspiration has no Borders</h2>
-              <p class="portfolio-text">Веб-сайт</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel" lang="en">Inspiration has no Borders</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="link" href="">
               <img
                 src="./images/limit-edition.jpg"
@@ -148,12 +162,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel">Видання Limited Edition</h2>
-              <p class="portfolio-text">Дизайн</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel">Видання Limited Edition</h2>
+                <p class="portfolio-text">Дизайн</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/lab.jpg"
@@ -161,12 +178,15 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel">Проєкт LAB</h2>
-              <p class="portfolio-text">Маркетинг</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel">Проєкт LAB</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </div>
+              
             </a>
           </li>
 
-          <li>
+          <li class="portfolio-items">
             <a class="portfolio-element link" href="">
               <img
                 src="./images/growing-business.jpg"
@@ -174,8 +194,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-titel" lang="en">Growing Business</h2>
-              <p class="portfolio-text">Додаток</p>
+              <div class="portfolio-about">
+                <h2 class="portfolio-titel" lang="en">Growing Business</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
+              
             </a>
           </li>
         </ul>
