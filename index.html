@@ -44,35 +44,35 @@
     <main>
       <!-- Блок Герой -->
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero-title">Ефективні рішення для<br>вашого бізнесу</h1>
         <button class="button" type="button">Замовити послугу</button>
       </section>
       <!-- Достоинства -->
-      <section>
-        <h2>Переваги</h2>
+      <section class="dignity-container container">
+        <h2 class="hide">Переваги</h2>
         <!-- потом скроется -->
         <ul class="dignity list">
-          <li>
+          <li class="dignity-items">
             <h3 class="dignity-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="dignity-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="dignity-items">
             <h3 class="dignity-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="dignity-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="dignity-items">
             <h3 class="dignity-title">ПЛАНУВАННЯ</h3>
             <p class="dignity-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="dignity-items">
             <h3 class="dignity-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="dignity-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -82,10 +82,10 @@
         </ul>
       </section>
       <!-- Наша работа -->
-      <section>
+      <section class="ourwork-container container">
         <h2 class="title">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
+        <ul class="ourwork-list list">
+          <li class="ourwork-items">
             <img
               src="./images/metier_1.jpg"
               alt="процес планування"
@@ -93,7 +93,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="ourwork-items">
             <img
               src="./images/metier_2.jpg"
               alt="процес створеня макету"
@@ -101,7 +101,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="ourwork-items">
             <img
               src="./images/metier_3.jpg"
               alt="процес графічного оформлення"
@@ -113,60 +113,74 @@
       </section>
       <!-- Наша команда -->
       <section class="ourteam">
-        <h2 class="title">Наша команда</h2>
+        <div class="ourteam-container container">
+          <h2 class="ourteam-title title">Наша команда</h2>
 
-        <ul class="list">
-          <li class="team-list">
-            <img
-              src="./images/product_designer.jpg"
-              alt="усміхнений молодий чоловік в окулярах с бородою"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Ігор Дем'яненко</h3>
-            <p class="team-profession" lang="en">Product Designer</p>
-          </li>
-          <li class="team-list">
-            <img
-              src="./images/frontend_developer.jpg"
-              alt="усміхнена молода дівчина в окулярах"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Ольга Рєпіна</h3>
-            <p class="team-profession" lang="en">Frontend Developer</p>
-          </li>
-          <li class="team-list">
-            <img
-              src="./images/marketing.jpg"
-              alt="усміхнений молодий чоловік"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Микола Тарасов</h3>
-            <p class="team-profession" lang="en">Marketing</p>
-          </li>
-          <li class="team-list">
-            <img
-              src="./images/ui_designer.jpg"
-              alt="усміхнений молодий чоловік в окулярах с бородою"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Михайло Єрмаков</h3>
-            <p class="team-profession" lang="en">UI Designer</p>
-          </li>
-        </ul>
+          <ul class="ourteam-list list">
+            <li class="team-items">
+              <img
+                src="./images/product_designer.jpg"
+                alt="усміхнений молодий чоловік в окулярах с бородою"
+                width="270"
+                height="260"
+              />
+              <div class="team-about">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-profession" lang="en">Product Designer</p>
+              </div>
+              
+            </li>
+            <li class="team-items">
+              <img
+                src="./images/frontend_developer.jpg"
+                alt="усміхнена молода дівчина в окулярах"
+                width="270"
+                height="260"
+              />
+              <div class="team-about">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-profession" lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-items">
+              <img
+                src="./images/marketing.jpg"
+                alt="усміхнений молодий чоловік"
+                width="270"
+                height="260"
+              />
+              <div class="team-about">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-profession" lang="en">Marketing</p>
+              </div>
+              
+            </li>
+            <li class="team-items">
+              <img
+                src="./images/ui_designer.jpg"
+                alt="усміхнений молодий чоловік в окулярах с бородою"
+                width="270"
+                height="260"
+              />
+              <div class="team-about">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-profession" lang="en">UI Designer</p>
+              </div>
+              
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <!-- logo -->
+     <div class="footer-container container">
+         <!-- logo -->
       <a class="logo link" href="./index.html" lang="en"><span>Web</span>Studio</a>
       <!-- Как найти -->
-      <address class="address">
+      <address class="footer-address address">
         <ul class="address-list list">
-          <li>
+          <li class="address-items">
             <a class="link" 
               target="_blank"
               rel="noreferrer noopener"
@@ -175,15 +189,16 @@
             >
           </li>
 
-          <li>
+          <li class="address-items">
             <a class="address-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
 
-          <li>
+          <li class="address-items">
             <a class="address-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
+     </div>
     </footer>
   </body>
 </html>
