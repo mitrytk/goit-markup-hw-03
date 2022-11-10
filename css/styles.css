@@ -342,7 +342,7 @@ header {
     border: 1px solid #EEEEEE;
 }
 .portfolio-about {
-    margin: 20px 24px;
+    padding: 20px 24px;
 }
 .portfolio-titel {
     color: var(--text-title-color);
