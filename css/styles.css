@@ -85,6 +85,10 @@ p {
     padding-left: 15px;
     padding-right: 15px;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* --Индивидуальные классы-- */
 
@@ -185,10 +189,6 @@ header {
     text-transform: uppercase;
 }
 /* Достоинства */
-.dignity-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .dignity.list {
     display: flex;
 }
@@ -227,10 +227,6 @@ header {
 /* Наша команда */
 .ourteam {
     background-color: var(--background-secondary-color);
-}
-.ourteam-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .ourteam-list {
     display: flex;
@@ -293,10 +289,7 @@ header {
 }
 
 /* -- Портфолио html -- */
-.portfolio-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 /* фильтр портфолио */
 .filter-list {
     display: flex;
