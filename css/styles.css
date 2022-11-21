@@ -95,6 +95,7 @@ p {
 /* -header- */
 .header {
     border-bottom: 1px solid #ECECEC;
+
 }
 .header-container {
     display: flex;
@@ -107,7 +108,7 @@ p {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;
+    line-height: 1.38;
 }
 .logo span {
     color: var(--brend-color);
@@ -116,6 +117,8 @@ p {
 /* Навигация сайта и контакты*/
 header {
     background-color: #FFFFFF;
+    line-height: 1.14;
+    
 }
 .nav-header {
     display: flex;
@@ -141,7 +144,6 @@ header {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .nav-site .link:hover,
@@ -172,9 +174,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
     background-color: #2F303A;
-    min-height: 600px;
 }
 .hero-title {
     margin-bottom: 30px;
@@ -217,27 +220,27 @@ header {
 .ourwork-container {
     padding-bottom: 94px;
 }
+.ourwork-container > .title {
+    margin-bottom: 50px;
+}
 .ourwork-list {
     display: flex;
-    margin-top: 50px;
-}
-.ourwork-items + .ourwork-items{
-    margin-left: 30px;
+    justify-content: space-between;
 }
 /* Наша команда */
 .ourteam {
     background-color: var(--background-secondary-color);
 }
+.ourteam-title {
+    margin-bottom: 50px;
+}
 .ourteam-list {
     display: flex;
-    margin-top: 50px;
+    justify-content: space-between;
 }
 .team-items {
     background-color: var(--white-color);
     border-radius: 0px 0px 4px 4px;
-}
-.team-items + .team-items {
-    margin-left: 30px;
 }
 .team-about {
     padding-top: 30px;
