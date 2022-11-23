@@ -15,6 +15,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 body {
+    box-sizing: border-box;
     background-color: var(--white-color);
     color: var(--text-main-color);
 
