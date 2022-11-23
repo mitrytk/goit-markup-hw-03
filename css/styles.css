@@ -13,9 +13,12 @@ font-family: 'Roboto', sans-serif;
     --background-footer-color: #2F303A;
     --footer-text-color: #FFFFFF;
 }
-
-body {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+}
+body {
     background-color: var(--white-color);
     color: var(--text-main-color);
 
